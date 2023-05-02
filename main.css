@@ -252,7 +252,7 @@ header button:hover {
 
 .updatesSection {
   color: #ffffff;
-  padding: 10px 20px 20px;
+  padding: 10px 20px 96px 20px;
 }
 .updatesSection .header {
   display: flex;
@@ -309,6 +309,96 @@ header button:hover {
 }
 
 .updatesSection .itemWrapper .item p {
+  font-size: 18px;
+  font-family: Soehne;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Safty section */
+
+.safety {
+  padding-bottom: 96px;
+}
+.safety .textWrapper {
+  color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.safety .textWrapper h2 {
+  width: 50%;
+  font-size: 48px;
+  font-family: Signifier;
+  font-weight: 400;
+}
+
+.safety p {
+  font-size: 28px;
+  font-family: Soehne;
+  color: #ffffff;
+}
+
+.safety a {
+  font-size: 18px;
+  font-family: Soehne;
+  color: #ffffff;
+}
+
+.safety .textWrapper div {
+  width: 50%;
+}
+
+.safety img {
+  width: 100%;
+}
+/* research section */
+.research {
+  color: #ffffff;
+  padding: 10px 20px 96px;
+}
+
+.research .textWrapper {
+  color: #ffffff;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.research .textWrapper h2 {
+  width: 50%;
+  font-size: 48px;
+  font-family: Signifier;
+  font-weight: 400;
+}
+.research .textWrapper div {
+  width: 50%;
+}
+.research .itemWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.research .itemWrapper .item {
+  width: 24%;
+  text-decoration: none;
+}
+.research .itemWrapper img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.research .itemWrapper .item h3 {
+  font-size: 18px;
+  font-family: Soehne;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.research .itemWrapper .item:hover h3 {
+  text-decoration: underline;
+}
+
+.research .itemWrapper .item p {
   font-size: 18px;
   font-family: Soehne;
   color: #ffffff;
