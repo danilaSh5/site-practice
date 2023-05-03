@@ -1,3 +1,4 @@
+/* Signifier */
 @font-face {
   font-family: Signifier;
   src: url("./assets/fonts/Test\ Signifier/test-signifier-thin.woff2");
@@ -23,7 +24,20 @@
   font-weight: 400;
   font-style: italic;
 }
+@font-face {
+  font-family: Signifier;
+  src: url("./assets/fonts/Test\ Signifier/test-signifier-bold.woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Signifier;
+  src: url("/assets/fonts/Test\ Signifier/test-signifier-bold-italic.woff2");
+  font-weight: 700;
+  font-style: italic;
+}
 
+/* Soehne */
 @font-face {
   font-family: Soehne;
   src: url("./assets/fonts/Test\ Söhne/test-soehne-buch.woff2");
@@ -34,6 +48,18 @@
   font-family: Soehne;
   src: url("./assets/fonts/Test\ Söhne/test-soehne-buch-kursiv.woff2");
   font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: Soehne;
+  src: url("./assets/fonts/Test\ Söhne/test-soehne-dreiviertelfett.woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Soehne;
+  src: url("./assets/fonts/Test\ Söhne/test-soehne-dreiviertelfett-kursiv.woff2");
+  font-weight: 700;
   font-style: italic;
 }
 /* @font-face {
@@ -204,6 +230,9 @@ header button:hover {
 .divider {
   margin: 0 20px;
   border-bottom: 1px solid #ffffff;
+}
+.divider.ghost {
+  border-bottom: 1px solid #ffffff66;
 }
 
 /* ChatGPT section */
@@ -403,4 +432,224 @@ header button:hover {
   font-family: Soehne;
   color: #ffffff;
   text-decoration: none;
+}
+
+/* Careers section */
+
+.careers {
+  padding-bottom: 96px;
+}
+.careers .textWrapper {
+  color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.careers .textWrapper h2 {
+  width: 50%;
+  font-size: 48px;
+  font-family: Signifier;
+  font-weight: 400;
+}
+
+.careers p {
+  font-size: 28px;
+  font-family: Soehne;
+  color: #ffffff;
+}
+
+.careers a {
+  font-size: 18px;
+  font-family: Soehne;
+  color: #ffffff;
+}
+
+.careers .textWrapper div {
+  width: 50%;
+}
+
+.careers img {
+  width: 100%;
+}
+/* lilian */
+.lilian {
+  color: #ffffff;
+  display: flex;
+  padding: 20px 20px 200px 20px;
+}
+.lilian .quote {
+  width: 50%;
+}
+.lilian img {
+  width: 50%;
+}
+.lilian q {
+  font-size: 55px;
+  font-family: Signifier;
+  display: block;
+  padding-right: 10px;
+}
+.lilian p {
+  font-family: Soehne;
+  font-size: 18px;
+}
+.lilian p:first-of-type {
+  font-weight: 700;
+}
+
+/* Join us section */
+.joinUs {
+  color: #ffffff;
+  padding: 0px 20px 100px;
+}
+.joinUs h2 {
+  font-size: 73px;
+  font-family: Signifier;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.joinUs a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  border: 1px solid #ffffff;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-family: Soehne;
+}
+.joinUs a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Footer */
+
+footer {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Soehne;
+  padding: 0px 20px;
+}
+footer .navigation .imageWrapper {
+  width: 20%;
+}
+
+footer .navigation img {
+  width: 118px;
+  height: 32px;
+}
+
+footer .navigation {
+  display: flex;
+  margin-bottom: 150px;
+}
+footer .navigation ul {
+  width: 20%;
+}
+footer .navigation ul li:first-child {
+  font-weight: 700;
+}
+footer .navigation ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+footer .navigation ul li a:hover {
+  text-decoration: underline;
+}
+
+/* last */
+
+.last {
+  display: flex;
+}
+.last a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.last a:hover {
+  text-decoration: underline;
+}
+.last .copyright {
+  width: 20%;
+}
+/* .last .copyright ul {
+
+} */
+.last .right {
+  width: 80%;
+}
+.last .right ul {
+  display: flex;
+}
+.last .right li {
+  margin-right: 10px;
+}
+.last .right button {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Soehne;
+  padding: 0%;
+}
+.last .right button:hover {
+  text-decoration: underline;
+}
+
+.gradient {
+  background-color: #ffffff;
+}
+.gradient .item {
+  background-color: #000000;
+}
+.gradient .item:nth-child(1) {
+  height: 23px;
+  margin-top: 0;
+}
+.gradient .item:nth-child(2) {
+  height: 21px;
+  margin-top: 1px;
+}
+.gradient .item:nth-child(3) {
+  height: 19px;
+  margin-top: 2px;
+}
+.gradient .item:nth-child(4) {
+  height: 17px;
+  margin-top: 3px;
+}
+.gradient .item:nth-child(5) {
+  height: 15px;
+  margin-top: 4px;
+}
+.gradient .item:nth-child(6) {
+  height: 13px;
+  margin-top: 5px;
+}
+.gradient .item:nth-child(7) {
+  height: 11px;
+  margin-top: 6px;
+}
+.gradient .item:nth-child(8) {
+  height: 9px;
+  margin-top: 7px;
+}
+.gradient .item:nth-child(9) {
+  height: 7px;
+  margin-top: 8px;
+}
+.gradient .item:nth-child(10) {
+  height: 5px;
+  margin-top: 9px;
+}
+.gradient .item:nth-child(11) {
+  height: 3px;
+  margin-top: 10px;
+}
+.gradient .item:nth-child(12) {
+  height: 1px;
+  margin-top: 11px;
 }
